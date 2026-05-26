@@ -8,5 +8,15 @@
 </head>
 <body>
     <h1>Hello from HTML</h1>
+    <script th:src="@{/js/site.js}"></script>
+    <h2>Card</h2>
+    <div class="card">
+        <img id="userImage" src="img/john.png" alt="Avatar" style="width:100%">
+        <div class="container">
+            <h4 id="userName"><b>John Doe</b></h4> 
+            <p id="userGender">Male</p> 
+        </div>
+    </div>
+    <button onclick="toggleCard()">Toggle</button>
 </body>
 </html>
