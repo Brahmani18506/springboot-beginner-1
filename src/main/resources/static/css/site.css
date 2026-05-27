@@ -1,3 +1,24 @@
 h1{
     color:red;
 }
+.navbar{
+    border:1px solid #000000;
+    background-color:#444;
+    padding:10px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    overflow:hidden;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding:14px 20px;
+    float:left;
+    display:block;
+    text-align:center;
+}
+.navbar a:hover{
+    background-color:#666;
+}
